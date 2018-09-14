@@ -1,0 +1,245 @@
+@import "var1";
+@import "base";
+*{
+  box-sizing:border-box;
+}
+.container{
+  @media screen and (max-width:@num1){
+    width:@num1*1px-100px;
+    margin:0 auto;
+    .clear();
+    .public();
+
+    &>.row>.col-s-v{
+      display:block;
+    }
+    &>.row>.col-s-h{
+      display:none;
+    }
+
+  }
+  .clear(){
+    &:after,&:before{
+      content:'';
+      display:block;
+    }
+    &:after{
+      clear:both;
+    }
+  }
+  .public(){
+    &>.row{
+      width:100%;
+      .clear();
+    }
+    &-fluid{
+      width:100%;
+      .clear();
+    }
+    &-fluid>.row{
+      width:100%;
+      .clear();
+    }
+  }
+
+
+  .response(s);
+  .response(@type,@i:0) when(@i<=@col){
+    &>.row>.col-@{type}-@{i}{
+      float:left;
+      width:@i/@col*100%;
+    }
+    &-fluid>.row>.col-@{type}-@{i}{
+      float:left;
+      width:@i/@col*100%;
+    }
+    &>.row>.col-@{type}-left-@{i}{
+      position:relative;
+      left:@i/@col*-100%;
+    }
+    &>.row>.col-@{type}-right-@{i}{
+      position:relative;
+      left:@i/@col*100%;
+    }
+    &-fluid>.row>.col-@{type}-left-@{i}{
+      position:relative;
+      left:@i/@col*-100%;
+    }
+    &-fluid>.row>.col-@{type}-right-@{i}{
+      position:relative;
+      left:@i/@col*100%;
+    }
+    .response(@type,@i+1);
+  }
+
+
+@media screen and (min-width:@num1) and(max-width:@num2){
+
+  .container{
+    width:@num1;
+    margin:0 auto;
+    .public();
+  }
+  .col-m-v{
+    display:block;
+  }
+  .col-m-h{
+    display:none;
+  }
+  .response(m);
+ }
+@media screen and (min-width:@num2){
+  .container{
+    width:@num2;
+    margin:0 auto;
+    .public();
+  }
+  .col-l-v{
+    display:block;
+  }
+  .col-l-h{
+    display:none;
+  }
+  .response(l);
+ }
+}
+/*
+.container{
+  width:@num1*1px-100px;
+  margin:0 auto;
+  .clear();
+  &-fluid{
+    width:100%;
+    .clear();
+  }
+  &>.row{
+    width:100%;
+    .clear();
+  }
+  &-fluid>.row{
+    width:100%;
+    .clear();
+  }
+
+}
+.clear(){
+  &:before,&:after{
+    content:'';
+    display:block;
+  }
+  &:after{
+    clear:both;
+  }
+
+}
+
+.col-m-v{
+  display:none;
+}
+.col-l-v{
+  display:none;
+}
+.col-s-v{
+  display:block;
+}
+.col-m-h{
+  display:block;
+}
+.col-l-h{
+  display:block;
+}
+.col-s-h{
+  display:none;
+}
+
+
+.response(s);
+.response(@type,@i:0) when(@i<=@col){
+  .container>.row>.col-@{type}-@{i}{
+    float:left;
+    width:@i/@col*100%;
+  }
+  .container-fluid>.row>.col-@{type}-@{i}{
+    float:left;
+    width:@i/@col*100%;
+  }
+  .container>.row>.col-@{type}-left-@{i}{
+    position:relative;
+    left:@i/@col*-100%;
+  }
+  .container>.row>.col-@{type}-right-@{i}{
+    position:relative;
+    left:@i/@col*100%;
+  }
+  .container-fluid>.row>.col-@{type}-left-@{i}{
+    position:relative;
+    left:@i/@col*-100%;
+  }
+  .container-fluid>.row>.col-@{type}-right-@{i}{
+    position:relative;
+    left:@i/@col*100%;
+  }
+
+  .response(@type,@i+1);
+
+}
+@media screen and (min-width:@num1){
+  .container{
+    width:@num1;
+  }
+
+
+  .col-l-v{
+    display:none;
+  }
+  .col-s-v{
+    display:none;
+  }
+  .col-m-v{
+    display:block;
+  }
+
+  .col-l-h{
+    display:block;
+  }
+  .col-s-h{
+    display:block;
+  }
+  .col-m-h{
+    display:none;
+  }
+
+
+    .response(m);
+
+}
+@media screen and (min-width:@num2){
+  .container{
+    width:@num2;
+  }
+
+  .col-s-v{
+    display:none;
+  }
+  .col-m-v{
+    display:none;
+  }
+  .col-l-v{
+    display:block;
+  }
+
+
+  .col-s-h{
+    display:block;
+  }
+  .col-m-h{
+    display:block;
+  }
+  .col-l-h{
+    display:none;
+  }
+
+  .response(l);
+
+}
+*/

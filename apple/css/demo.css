@@ -1,0 +1,27 @@
+/*.box-shadow(@inset:outset,@x:0px,@y:0px,@px:5px,@c:#000){
+  -webkit-box-shadow: @arguments;
+  -moz-box-shadow:@arguments;
+  -o-box-shadow:@arguments;
+  -ms-box-shadow:@arguments;
+  box-shadow:@arguments;
+}*/
+div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-box-shadow: 10px 10px 10px red inset;
+  -moz-box-shadow: 10px 10px 10px red inset;
+  -o-box-shadow: 10px 10px 10px red inset;
+  -ms-box-shadow: 10px 10px 10px red inset;
+  box-shadow: 10px 10px 10px red inset;
+  -webkit-box-shadow: 10px 10px 10px red;
+  -moz-box-shadow: 10px 10px 10px red;
+  -o-box-shadow: 10px 10px 10px red;
+  -ms-box-shadow: 10px 10px 10px red;
+  box-shadow: 10px 10px 10px red;
+}

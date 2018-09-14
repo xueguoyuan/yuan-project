@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        window.onload=function(){
+            var body=document.getElementsByTagName("body")[0];
+            var t=setInterval(move,2000);
+            var num=1;
+            function move(){
+                num++;
+                if(num==5){
+                    num=1
+                }
+                body.style.background="url("+num+".jpg)";
+
+            }
+           var arr=[];
+           var ch=document.documentElement.clientHeight;
+           var cw=document.documentElement.clientWidth;
+           // var tops=10+(ch-20)*Math.random();
+            for(var i=0;i<300;i++){
+                var divs=document.createElement("div");
+                var time=10*Math.random();
+                var lefts=20+(cw-40)*Math.random();
+                divs.style.cssText="height:20px;width:20px;background:url(1.png);" +
+                "position:absolute;top:-20px;left:"+lefts+"px;transition:top 2s linear  "+time+"s;-webkit-filter:blur(1px);";
+                document.body.appendChild(divs);
+                arr.push(divs);
+            }
+            setTimeout(function(){
+                    for(var i=0;i<arr.length;i++){
+                        arr[i].style.top=ch+"px";
+                        arr[i].addEventListener("webkitTransitionEnd",function(){
+                            this.style.transition="none";
+                            this.style.top="-20px";
+                            var time=3*Math.random();
+                            var that=this;
+                            setTimeout(function(){
+                               that.style.transition="top 2s linear "+time+"s";
+                               that.style.top=ch+"px";
+                            },0)
+                        },false);
+                    }
+            },0)
+
+        }
+    </script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background:url(2.jpg);
+            overflow: hidden;
+           /* -webkit-filter:blur(3px);*//*模糊*//*
+            10+(client-20)*Math.random();*/
+            /* css3 webGL
+             matrax(cos(a),sin(a),-sin(a),cos(a),x,y)
+            newx=x*cos(a)-sin(a)y;
+            newy=x*sin(a)+cos(a);*/
+        }
+    </style>
+</head>
+<body>
+
+</body>
+</html>

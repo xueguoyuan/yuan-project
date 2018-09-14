@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>钟表</title>
+</head>
+<script>
+    window.onload=function(){
+        var clock=document.getElementsByClassName("clock")[0];
+        var cW=clock.offsetWidth;
+        
+        //marclock();
+        /*function marclock(){
+            for(var i=0;i<60;i++){
+                var h, w,l;
+                if(i%5==0){
+                   h=20;w=5;
+
+                }else{
+                    h=10,w=3;
+                }
+                l=(cW-w)/2;
+                var divs=document.createElement("div");
+                divs.style.cssText="background:black;position:absolute;top:0;left:0;" +
+                "height:"+h+"px;width:"+w+"px;";
+                divs.style.transformOrigin="center "+cW/2+"px";
+                divs.style.transform="translate("+l+"px,0) rotate("+i*6+"deg)";
+                clock.appendChild(divs);
+            }
+
+        }*/
+        var time=new Date();
+        var h=time.getHours();
+        var m=time.getMinutes();
+        var s=time.getSeconds();
+        var mz=creatpoint(10,110,"url(./img/clock.png) -5px -60px",s*6,12);
+        var fz=creatpoint(9,80,"url(./img/clock.png) -30px -110px",m*6,10);
+        var xz=creatpoint(6,50,"red",30*h+(m*6)/12,6);
+        function creatpoint(w,h,c,a,n){
+            var div=document.createElement("div");
+            var tw=(cW-w)/2;
+            var th=(cW/2-h);
+            div.tw=tw;
+            div.th=th;
+            div.style.cssText="width:"+w+"px;height:"+h+"px;background:"+c+";position:absolute;top:0;z-index:"+n+
+            ";left:0;border-radius:5px;transform-origin:center bottom;transform:translate("+(cW-w)/2+"px,"+(cW/2-h)+"px) rotate("+a+"deg);";
+            clock.appendChild(div);
+            return div;
+        }
+       setInterval(function(){
+            var time=new Date();
+            var h=time.getHours();
+            var m=time.getMinutes();
+            var s=time.getSeconds();
+            mz.style.transform="translate("+mz.tw+"px,"+mz.th+"px) rotate("+6*s+"deg)";
+            fz.style.transform="translate("+fz.tw+"px,"+fz.th+"px) rotate("+6*m+"deg)";
+            xz.style.transform="translate("+xz.tw+"px,"+xz.th+"px) rotate("+(30*h+(m*6)/12)+"deg)";
+        },1000)
+    }
+</script>
+
+<style>
+    .clock{
+        height: 400px;
+        width:400px;
+        /* border:10px solid #c4c4c4; */
+        background: url(./img/bg1.jpg) center 0 no-repeat;
+        background-size:cover;
+        border-radius: 50%;
+        margin: auto auto;
+        position: relative;
+        margin-top:100px;
+    }
+    .round{
+        width:12px;height:12px;border-radius: 50%;
+        background: white;position:absolute;
+        top:0;left:0;right:0;bottom: 0;
+        margin:auto auto;z-index: 20;
+    }
+</style>
+<body>
+   <div class="clock">
+       <div class="round"></div>
+   </div>
+</body>
+</html>

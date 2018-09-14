@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>英雄联盟人物</title>
+    <style>
+        body{
+            perspective: 800px;
+        }
+        .box{
+            height: 400px;
+            width:400px;
+            margin: 0 auto;
+            position: relative;
+            border: 1px solid #926B6B;
+
+        }
+       .sonbox{
+           height: 200px;
+           width:200px;
+           position: absolute;
+           top:100px;
+           left:100px;
+           transform-style: preserve-3d;
+           transform-origin: center center 100px;
+       }
+
+        .son{
+            position: absolute;
+            top:0px;
+            left:0px;
+            height: 200px;
+            width:200px;
+            text-align: center;
+            font-size: 50px;
+            line-height: 200px;;
+            transform-style: preserve-3d;
+        }
+        .sonbox :nth-child(1){
+            background:url(./img/1.jpg);
+            transform-origin: top;
+            transform: rotateX(90deg);
+        }
+        .sonbox :nth-child(2){
+            background:url(./img/2.jpg);
+            transform-origin: left;
+            transform: rotateY(-90deg);
+        }
+        .sonbox :nth-child(3){
+            background:url(./img/3.jpg);
+            transform: rotateY(180deg);
+        }
+        .sonbox :nth-child(4){
+            background:url(./img/4.jpg);
+            transform-origin: right;
+            transform: rotateY(90deg);
+        }
+        .sonbox :nth-child(5){
+            background:url(./img/5.jpg);
+            transform-origin: bottom;
+            transform: rotateX(-90deg);
+        }
+        .sonbox :nth-child(6){
+            background:url(./img/6.jpg);
+            transform: translateZ(200px);
+        }
+    </style>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(function(){
+            var cx=$(".sonbox").offset().left+$(".sonbox").width()/2;
+            var cy=$(".sonbox").offset().top+$(".sonbox").height()/2;
+            $(document).mousemove(function(e){
+                var px= e.pageX-cx;
+                var py= e.pageY-cy;
+                var pz=0;
+                var m=Math.sqrt(px*px+py*py+pz*pz);
+                var mx=py/m;
+                var my=px/m;
+                var mz=pz/m;
+                $(".sonbox").css({transform:"rotate3d("+my+","+mx+","+mz+","+m+"deg)"})
+            })
+        })
+    </script>
+</head>
+<body>
+  <div class="box">
+     <div class="sonbox">
+         <div class="son"></div>
+         <div class="son"></div>
+         <div class="son"></div>
+         <div class="son"></div>
+         <div class="son"></div>
+         <div class="son"></div>
+     </div>
+  </div>
+</body>
+</html>

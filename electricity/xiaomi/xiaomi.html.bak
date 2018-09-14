@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>小米官网</title>
+ </head>
+ <link rel="stylesheet" type="text/css" href="./css/xiaomi.css">  
+ <body>
+<!--tip start-->
+  <div class="topbox">
+   <div class="top">
+    <div class="top-left">
+	 <ul class="top-left-ul">
+	  <li><a href="#">小米网</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">MIUI</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">米聊</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">游戏</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">多看阅读</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">云服务</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">小米网移动版</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">Select region</a></li>
+	 </ul>
+	</div>
+	<div class="top-right">
+	 <ul class="top-left-ul">
+			    <li><a href="#">登录</a></li>
+				<li class="top-left-ul-shu">|</li>
+				<li><a href="#">注册</a></li>
+			</ul>
+     <div class="gouwuce">
+	       <a href="" class="gouwuce">购物车（0)</a>
+	 </div>
+	</div>
+   </div>
+  </div>
+<!--top end-->
+
+<!--logo stat-->
+ <div class="logobox">
+    <div class="logo">
+	    <div class="logo-left">
+		   <a href=""><img src="./img/3.png" style="width:55px" title="小米官网"></a>
+		</div>
+		<div class="logo-zhong">
+		   <ul class="logo-zhong-ul">
+		       <li class="logo-zhong-li"><a href="">社区</a></li>
+			   <li class="logo-zhong-li"><a href="">服务</a></li>
+			   <li class="logo-zhong-li"><a href="">智能硬件</a></li>
+			   <li class="logo-zhong-li"><a href="">路由器</a></li>
+			   <li class="logo-zhong-li"><a href="">电视·盒子</a></li>
+			   <li class="logo-zhong-li"><a href="">平板</a></li>
+			   <li class="logo-zhong-li"><a href="">红米</a></li>
+			   <li class="logo-zhong-li"><a href="">小米手机</a></li>
+		   </ul>	
+	</div>
+	<div class="logo-right">
+	      <input type="text"><a href="">插线板</a><a href="">耳机</a>
+	</div>
+      <div class="logo-right-li"><img src="./img/4.jpg" style="width:50px;border:0;"></div>
+	</div>
+ </div>
+
+
+<!---->
+
+
+
+<!---->
+ <div class="daobox">
+     <div class="dao">
+	      <div class="dao-one">
+		       <a href=""><div class="dao-one-right"><p>开放购买</p></div></a>
+			   <a href=""><div class="dao-one-right-two"><p>企业团购</p></div></a>
+			   <a href=""><div class="dao-one-right-three"><p>官翻产品</p></div></a>
+			   <a href=""><div class="dao-one-right-four"><p>F码通道</p></div></a>
+			   <a href=""><div class="dao-one-right-five"><p>话费充值</p></div></a>
+			   <a href=""><div class="dao-one-right-six"><p>防伪查询</p></div></a>
+			   <div class="xiaoquan"></div>
+			   <div class="xiaoquan-one"></div>
+		  </div>
+		  <div class="dao-two"><a href=""><img src="./img/3.jpg"></a></div>
+		  <div class="dao-three"><a href=""><img src="./img/5.jpg"></a></div>
+		  <div class="dao-four"><a href=""><img src="./img/6.jpg"></a></div>
+	 </div>
+ </div>
+
+<!---->
+
+
+<!---->
+ <div class="titlebox">
+     <div class="title">
+	      <p class="title-left">小米明星单品</p>
+		  <div class="title-right">
+		   <div class="right">
+		     <a class="right-one" href=""><img src="./img/you.jpg" style="width:38px;"></a>
+		   </div>
+		   <div class="right-right">
+		     <a class="right-two" href=""><img src="./img/zuo.jpg" style="height:26px;"></a>
+		   </div>
+		  </div>
+	 </div>
+ </div>
+   <div class="changpingbox">
+       <div class="changping">
+	       <div class="changpingone">
+		      <a href="" class="changpingtitle">小米电视2/2S 全系列</a>
+			  <p class="changpingjia">40/48/49/55英寸 现货购买</p>
+		   </div>
+		   <div class="changpingtwo">
+		      <a href="" class="changpingtitle">小米电视2/2S 全系列</a>
+			  <p class="changpingjia">40/48/49/55英寸 现货购买</p>
+		   </div>
+		   <div class="changpingthree">
+		      <a href="" class="changpingtitle">小米电视2/2S 全系列</a>
+			  <p class="changpingjia">40/48/49/55英寸 现货购买</p>
+		   </div>
+		   <div class="changpingfour">
+		      <a href="" class="changpingtitle">小米电视2/2S 全系列</a>
+			  <p class="changpingjia">40/48/49/55英寸 现货购买</p>
+		   </div>
+		   <div class="changpingfive">
+		      <a href="" class="changpingtitle">小米电视2/2S 全系列</a>
+			  <p class="changpingjia">40/48/49/55英寸 现货购买</p>
+		   </div>
+	   </div>
+   </div>
+
+<!---->
+
+
+<!---->
+ <div class="zong">
+          <div class="biaoti">
+		        <span class="biaoti-left">智能硬件</span>
+				<a href="" class="biaoti-chakan">查看全部<img src="./img/biao.jpg" style="position:relative; top:5px;"></a>
+		  </div>
+          <div class="yingjian">
+		      <div class="yingjian-left">
+			       <a href=""><img src="./img/kongqi.jpg" style="float:left;"></a>
+			  </div>
+			  <div class="yingjian-right">
+			       <div class="yingjian-one">
+				      <a href=""><img src="./img/21.jpg">
+				      <a href="" class="yingjian-zi">小蚁智能摄像机</a>
+					  <p class="yingjian-jieshao">能看能听能说，手机远程观看</p>
+					  <p class="yingjian-jiage">149元</p>
+				   </div>
+				   <div class="yingjian-one">
+				      <a href=""><img src="./img/22.jpg">
+				      <a href="" class="yingjian-zi">小蚁运动相机</a>
+					  <p class="yingjian-jieshao">边玩边录边拍，手机随时分享</p>
+					  <p class="yingjian-jiage">399元</p>
+				   </div>
+				   <div class="yingjian-one">
+				      <a href=""><img src="./img/23.jpg">
+				      <a href="" class="yingjian-zi">小米路由器mimi</a>
+					  <p class="yingjian-jieshao">主流双频AC智能路由器，性价比之王</p>
+					  <p class="yingjian-jiage">129元</p>
+				   </div>
+				   <div class="yingjian-one">
+				      <a href=""><img src="./img/24.jpg">
+				      <a href="" class="yingjian-zi">小米体重秤</a>
+					  <p class="yingjian-jieshao">高精度压力传感器 ｜ 手机管理全家健康</p>
+					  <p class="yingjian-jiage">99元</p>
+				   </div>
+				   <div class="yingjian-one">
+				      <a href=""><img src="./img/25.jpg">
+				      <a href="" class="yingjian-zi">小蚁智能插座</a>
+					  <p class="yingjian-jieshao">手机远程遥控开关，带USB接口</p>
+					  <p class="yingjian-jiage">59元</p>
+				   </div>
+				    <div class="yingjian-one">
+				      <a href=""><img src="./img/26.jpg">
+				      <a href="" class="yingjian-zi">iHealth智能血压计</a>
+					  <p class="yingjian-jieshao">送给爸妈最贴心的礼物</p>
+					  <p class="yingjian-jiage">199元</p>
+				   </div>
+				    <div class="yingjian-one">
+				      <a href=""><img src="./img/27.jpg">
+				      <a href="" class="yingjian-zi">小米水质TDS检测笔</a>
+					  <p class="yingjian-jieshao">准确检测家中水质纯度</p>
+					  <p class="yingjian-jiage">39元</p>
+				   </div>
+				    <div class="yingjian-one">
+				      <a href=""><img src="./img/28.jpg">
+				      <a href="" class="yingjian-zi">小米智能家庭套装</a>
+					  <p class="yingjian-jieshao">3分钟快速安装，30多种智能玩法</p>
+					  <p class="yingjian-jiage">199元</p>
+				   </div>
+				</div>
+		  </div>
+
+<!---->
+
+
+<!---->
+		  <div class="dapei">
+		       <span class="dapei-left">搭配</span>
+			   <a href="" class="dapei-right">电池存储卡</a>
+               <a href="" class="dapei-right">电源</a>
+			   <a href="" class="dapei-right">耳机音箱</a>
+			   <a href="" class="dapei-right">热门</a>			   
+		  </div>
+		  <div class="yingjian">
+		   <div class="dapei-left-xia">
+			   <a href=""><img src="./img/a.jpg" style="float:left;"></a>
+			   <a href=""><img src="./img/b.jpg" style="float:left;margin-top:14px;"></a>
+		   </div>
+		   <div class="yingjian-right">
+		       <div class="yingjian-one">
+			       <a href=""><img src="./img/c.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/d.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/e.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/f.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/g.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/h.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/i.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			       <div class="dapei-shang">
+				       <a href=""><img src="./img/k.jpg" style="float:right;width:80px;padding-top:40px;padding-right:25px;"></a>
+					   <a href="" style="float:left;color:#333333;
+                       font-size:12px;margin-top:50px;margin-left:30px;">小米随身WIFI</a>
+					   <p style="float:left;color:#ff6700;font-size:18px;margin-top:10px;margin-left:40px;">19.9元</p>
+				   </div>
+				   <div class="dapei-xia">
+				      <a href=""><img src="./img/aa.jpg" style="float:right;width:48px;margin-top:50px;margin-right:40px;"></a>
+					  <a href=""><p style="float:left;margin-top:45px;margin-left:45px;
+					  font-size:18px;">浏览更多</p></a>
+					  <a href=""><p style="float:left;margin-top:78px;margin-left:-70px;
+					  font-size:12px;">热门</p></a>
+			     </div>
+		   </div>
+		 </div>
+<!---->
+
+
+<!---->
+		 <div class="dapei">
+		       <span class="dapei-left"> 配件</span>
+			   <a href="" class="dapei-right">电池存储卡</a>
+               <a href="" class="dapei-right">电源</a>
+			   <a href="" class="dapei-right">耳机音箱</a>
+			   <a href="" class="dapei-right">热门</a>			   
+		  </div> 
+		  <div class="yingjian">
+		   <div class="dapei-left-xia">
+			   <a href=""><img src="./img/mi.jpg" style="float:left;"></a>
+			   <a href=""><img src="./img/mi1.jpg" style="float:left;margin-top:14px;"></a>
+		   </div>
+		   <div class="yingjian-right">
+		       <div class="yingjian-one">
+			       <a href=""><img src="./img/mi2.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi3.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi4.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi5.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi6.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi7.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/mi8.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			       <div class="dapei-shang">
+				       <a href=""><img src="./img/k.jpg" style="float:right;width:80px;padding-top:40px;padding-right:25px;"></a>
+					   <a href="" style="float:left;color:#333333;
+                       font-size:12px;margin-top:50px;margin-left:30px;">小米随身WIFI</a>
+					   <p style="float:left;color:#ff6700;font-size:18px;margin-top:10px;margin-left:40px;">19.9元</p>
+				   </div>
+				   <div class="dapei-xia">
+				      <a href=""><img src="./img/aa.jpg" style="float:right;width:48px;margin-top:50px;margin-right:40px;"></a>
+					  <a href=""><p style="float:left;margin-top:45px;margin-left:45px;
+					  font-size:18px;">浏览更多</p></a>
+					  <a href=""><p style="float:left;margin-top:78px;margin-left:-70px;
+					  font-size:12px;">热门</p></a>
+			      </div>
+		   </div>
+		 </div>
+<!---->
+
+
+<!---->
+		  <div class="dapei">
+		       <span class="dapei-left"> 周边</span>
+			   <a href="" class="dapei-right">生活周边</a>
+               <a href="" class="dapei-right">米兔</a>
+			   <a href="" class="dapei-right">服装</a>
+			   <a href="" class="dapei-right">热门</a>			   
+		  </div> 
+		  <div class="yingjian">
+		   <div class="dapei-left-xia">
+			   <a href=""><img src="./img/z1.jpg" style="float:left;"></a>
+			   <a href=""><img src="./img/z2.jpg" style="float:left;margin-top:14px;"></a>
+		   </div>
+		   <div class="yingjian-right">
+		       <div class="yingjian-one">
+			       <a href=""><img src="./img/z3.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z4.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z5.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z6.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z7.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z8.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			   <div class="yingjian-one">
+			       <a href=""><img src="./img/z9.jpg"></a>
+				   <a href="" class="dapei-zi">小米头戴式耳机</a>
+                   <p class="dapei-jiage">129元</p>
+				   <p class="dapei-pingjia">2630人评价</p>
+			   </div>
+			       <div class="dapei-shang">
+				       <a href=""><img src="./img/k.jpg" style="float:right;width:80px;padding-top:40px;padding-right:25px;"></a>
+					   <a href="" style="float:left;color:#333333;
+                       font-size:12px;margin-top:50px;margin-left:30px;">小米随身WIFI</a>
+					   <p style="float:left;color:#ff6700;font-size:18px;margin-top:10px;margin-left:40px;">19.9元</p>
+				   </div>
+				   <div class="dapei-xia">
+				      <a href=""><img src="./img/aa.jpg" style="float:right;width:48px;margin-top:50px;margin-right:40px;"></a>
+					  <a href=""><p style="float:left;margin-top:45px;margin-left:45px;
+					  font-size:18px;">浏览更多</p></a>
+					  <a href=""><p style="float:left;margin-top:78px;margin-left:-70px;
+					  font-size:12px;">热门</p></a>
+					</div>
+		   </div>
+		 </div>
+<!---->
+<!---->
+ <div class="titlebox">
+     <div class="title">
+	      <p class="title-left">为你推荐</p>
+		  <div class="title-right">
+		   <div class="right">
+		     <a class="right-one" href=""><img src="./img/you.jpg" style="width:38px;"></a>
+		   </div>
+		   <div class="right-right">
+		     <a class="right-two" href=""><img src="./img/zuo.jpg" style="height:26px;"></a>
+		   </div>
+		  </div>
+	 </div>
+ </div>
+   <div class="changpingbox">
+       <div class="changping">
+	       <div class="tuijian">
+		       <a href=""><img src="./img/tui1.jpg" style="width:140px;margin-left:40px;margin-top:80px;"></a>
+		      <a href="" class="tuijiantitle">小米电视2/2S 全系列</a>
+			   <p class="tuijian-jiage">129元</p>
+		   </div>
+		   <div class="tuijian-one">
+		        <a href=""><img src="./img/tui2.jpg" style="width:140px;margin-left:40px;margin-top:80px;"></a>
+		      <a href="" class="tuijiantitle">小米电视2/2S 全系列</a>
+			   <p class="tuijian-jiage">129元</p>
+		   </div>
+		   <div class="tuijian-one">
+		        <a href=""><img src="./img/tui3.jpg" style="width:140px;margin-left:40px;margin-top:80px;"></a>
+		      <a href="" class="tuijiantitle">小米电视2/2S 全系列</a>
+			   <p class="tuijian-jiage">129元</p>
+		   </div>
+		   <div class="tuijian-one">
+		        <a href=""><img src="./img/tui4.jpg" style="width:140px;margin-left:40px;margin-top:80px;"></a>
+		      <a href="" class="tuijiantitle">小米电视2/2S 全系列</a>
+			   <p class="tuijian-jiage">129元</p>
+		   </div>
+		  <div class="tuijian-one">
+		        <a href=""><img src="./img/tui5.jpg" style="width:140px;margin-left:40px;margin-top:80px;"></a>
+		      <a href="" class="tuijiantitle">小米电视2/2S 全系列</a>
+			   <p class="tuijian-jiage">129元</p>
+		   </div>
+	   </div>
+    </div>
+	<div class="titlebox">
+	<div class="title">
+	      <p class="title-left">热评产品</p>
+		 
+	 </div>
+	</div>
+<!---->
+<!---->
+    <div class="titlebox">
+    <div class="title">
+	      <p class="title-left">内容</p>
+	 </div>
+    </div>
+<!---->
+<!---->
+    <div class="titlebox">
+     <div class="title">
+	      <p class="title-left">视频</p>
+	 </div>
+    </div>
+<!---->
+
+<!--底部开始-->
+
+<!--底部结束-->
+
+<!--尾部开始-->
+
+<!--尾部结束-->
+ </div>
+ </body>
+</html>
